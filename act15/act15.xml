@@ -1,80 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <FACTURA numero="999">
     
+
+
     <proveedor>
-        <equipos>Equipos Digitales S.L</equipos>
+        <empresa>Equipos Digitales S.L</empresa>
         <calle>Av.Valladolid</calle>
         <provincia>Madrid 28015</provincia>
-        <cif>Q-9876543</cif>
-        <telefono>91.777.66.99</telefono>
+        <cif>C.I.F: Q-9876543</cif>
+        <telefono>teléfono: 91.777.66.99</telefono>
+        <fax>fax: 91.777.66.99</fax>
     </proveedor>
 
-    <registro></registro>
-    <datosclientes></datosclientes>
+
+    <registro>
+        <fecha>Fecha: 12-01-2005</fecha>
+        <pedido>Pedido: nº 731</pedido>
+        <formadepago>Forma de pago: EFECTIVO</formadepago>
+    </registro>
     
-    <datosfactura>
-        <ref>MII93000F/8 </ref>
-        <descripcion>MICRO PENTIUM IV 3000MHZ FB3800</descripcion>
-        <cantidad>1</cantidad>
-        <precio>230 eur.</precio>
-        <iva>16,0</iva>
-        <importe>266,80 eur.</importe>
-    </datosfactura>
+
+    <datoscliente>
+        <numero>nº cliente: 879</numero>
+        <nombre>Nombre: Dario Bueno Gutiérrez</nombre>
+        <direccion>Dierección de envio: Av. Oporto nº7 4ºd</direccion>
+        <poblacion>Población: Madrid</poblacion>
+        <codigopostal>Cod. postal: 28043</codigopostal>
+        <provincia>Provincia: Madrid</provincia>
+    </datoscliente>
+
 
     <datosfactura>
-        <ref>MBBQDIP4</ref>
-        <descripcion>PLACA BASE QDI P4</descripcion>
-        <cantidad>1</cantidad>
-        <precio>180 eur.</precio>
-        <iva>16,0</iva>
-        <importe>208,80 eur.</importe>
-    </datosfactura>
-
-    <datosfactura>
-        <ref>MEDD512M32</ref>
-        <descripcion>DIMM DDR 512MB 3200</descripcion>
-        <cantidad>2</cantidad>
-        <precio>40 eur.</precio>
-        <iva>16,0</iva>
-        <importe>92,80 eur.</importe>
-    </datosfactura>
-
-    <datosfactura>
-        <ref>HD250GSA7</ref>
-        <descripcion>DISCO DURO 250GB S-ATA 7200</descripcion>
-        <cantidad>4</cantidad>
-        <precio>120 eur.</precio>
-        <iva>16,0</iva>
-        <importe>556,80 eur.</importe>
-    </datosfactura>
-
-    <totalelementos>
-        <baseimponible>970,00 eur.</baseimponible>
-        <iva>16</iva>
-        <cuotaiva>155,20 eur.</cuotaiva>
-    </totalelementos>
-
-    <totalfactura>
-        <cantidad></cantidad>
         
-    </totalfactura>
+        <dato>
+            <ref>MII93000F/8 </ref>
+            <descripcion>MICRO PENTIUM IV 3000MHZ FB3800</descripcion>
+            <cantidad>1</cantidad>
+            <precio>230 eur.</precio>
+            <iva>16,0</iva>
+            <importe>266,80 eur.</importe>
+        </dato>
+        
+        <dato>
+             <ref>MBBQDIP4</ref>
+             <descripcion>PLACA BASE QDI P4</descripcion>
+             <cantidad>1</cantidad>
+             <precio>180 eur.</precio>
+             <iva>16,0</iva>
+             <importe>208,80 eur.</importe>
+        </dato>
+        
+        <dato>
+            <ref>MEDD512M32</ref>
+            <descripcion>DIMM DDR 512MB 3200</descripcion>
+            <cantidad>2</cantidad>
+            <precio>40 eur.</precio>
+            <iva>16,0</iva>
+            <importe>92,80 eur.</importe>
+        </dato>
+        
+        <dato>
+            <ref>HD250GSA7</ref>
+            <descripcion>DISCO DURO 250GB S-ATA 7200</descripcion>
+            <cantidad>4</cantidad>
+            <precio>120 eur.</precio>
+            <iva>16,0</iva>
+            <importe>556,80 eur.</importe>
+        </dato>
+        
+        <totaldatos>
+            <baseimponible>Base imponible  970,00 eur.</baseimponible>
+            <iva>% I.V.A  16</iva>
+            <cuotaiva>Cuota I.V.A  155,20 eur.</cuotaiva>
+        </totaldatos>
+        
+        <totalfactura>
+            <cantidad>TOTAL FACTURA:   1125,20 eur.</cantidad>
+         </totalfactura>
+        
+    </datosfactura>
 
 
 
-    <cliente numero="cliente">
+</FACTURA>
+    
         
 
 
 
 
-    </FACTURA>
-
-    <FACTURA numero="datos factura">
-        
-
-
-
-
-    </FACTURA>
-
-</NOTA>
+  
