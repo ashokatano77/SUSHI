@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <comunicacion>
-    
-    <elemento parte=remite >
+
+    <elemento dice="remite">
         <nombre>Alfredo Reino</nombre>
         <emile>alf@ibium.com</emile>
     </elemento>
    
-    <elemento parte=destinatario>
+    <elemento dice="destinatario">
         <nombre>Bill Clinton</nombre>
         <emile>president@whitehouse.gov</emile>    
     </elemento>
    
-    <elemento parte=asunto>
+    <elemento dice="asunto">
         <asunto>Hola Bill</asunto>
         
     </elemento>
 
-    <elemento parte=texto>
+    <elemento dice="texto">
         <parrafo>¿Hola qué tal?...</parrafo>
         <puntos>...</puntos>
         
