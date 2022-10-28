@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FACTURA numero="999">
+    
+    <proveedor>
+        <equipos>Equipos Digitales S.L</equipos>
+        <calle>Av.Valladolid</calle>
+        <provincia>Madrid 28015</provincia>
+        <cif>Q-9876543</cif>
+        <telefono>91.777.66.99</telefono>
+    </proveedor>
+
+    <registro></registro>
+    <datosclientes></datosclientes>
+    
+    <datosfactura>
+        <ref>MII93000F/8 </ref>
+        <descripcion>MICRO PENTIUM IV 3000MHZ FB3800</descripcion>
+        <cantidad>1</cantidad>
+        <precio>230 eur.</precio>
+        <iva>16,0</iva>
+        <importe>266,80 eur.</importe>
+    </datosfactura>
+
+    <datosfactura>
+        <ref>MBBQDIP4</ref>
+        <descripcion>PLACA BASE QDI P4</descripcion>
+        <cantidad>1</cantidad>
+        <precio>180 eur.</precio>
+        <iva>16,0</iva>
+        <importe>208,80 eur.</importe>
+    </datosfactura>
+
+    <datosfactura>
+        <ref>MEDD512M32</ref>
+        <descripcion>DIMM DDR 512MB 3200</descripcion>
+        <cantidad>2</cantidad>
+        <precio>40 eur.</precio>
+        <iva>16,0</iva>
+        <importe>92,80 eur.</importe>
+    </datosfactura>
+
+    <datosfactura>
+        <ref>HD250GSA7</ref>
+        <descripcion>DISCO DURO 250GB S-ATA 7200</descripcion>
+        <cantidad>4</cantidad>
+        <precio>120 eur.</precio>
+        <iva>16,0</iva>
+        <importe>556,80 eur.</importe>
+    </datosfactura>
+
+    <totalelementos>
+        <baseimponible>970,00 eur.</baseimponible>
+        <iva>16</iva>
+        <cuotaiva>155,20 eur.</cuotaiva>
+    </totalelementos>
+
+    <totalfactura>
+        <cantidad></cantidad>
+        
+    </totalfactura>
+
+
+
+    <cliente numero="cliente">
+        
+
+
+
+
+    </FACTURA>
+
+    <FACTURA numero="datos factura">
+        
+
+
+
+
+    </FACTURA>
+
+</NOTA>
