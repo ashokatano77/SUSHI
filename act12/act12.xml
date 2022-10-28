@@ -12,14 +12,12 @@
     </elemento>
    
     <elemento dice="asunto">
-        <asunto>Hola Bill</asunto>
-        
+        <asunto>Hola Bill</asunto>  
     </elemento>
 
     <elemento dice="texto">
         <parrafo>¿Hola qué tal?...</parrafo>
-        <puntos>...</puntos>
-        
+        <puntos>...</puntos> 
     </elemento>
     
 </comunicacion>
