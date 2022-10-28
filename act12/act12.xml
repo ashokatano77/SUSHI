@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <OFERTA>
 
-    <CD=titulo "Still got the blues">
+    <CD titulo="Still got the blues">
         <Artista>Gary Moore</Artista>
         <Pais>UK</Pais>
         <Compania>Virgin records</Compania>
@@ -9,7 +9,7 @@
         <anio>1990</anio>
     </CD>
 
-    <CD=titulo "One night only">
+    <CD titulo="One night only">
         <Artista>Bee Gees</Artista>
         <Pais>UK</Pais>
         <Compania>Polydor</Compania>
@@ -17,7 +17,7 @@
         <anio>1998</anio>
     </CD>
 
-    <CD=titulo "When a man loves a woman">
+    <CD titulo="When a man loves a woman">
         <Artista>Percy Sledge</Artista>
         <Pais>USA</Pais>
         <Compania>Atlantic</Compania>
@@ -25,7 +25,7 @@
         <anio>1987</anio>
     </CD>
 
-    <CD=titulo "Big Willie style">
+    <CD titulo="Big Willie style">
         <Artista>Will Smith</Artista>
         <Pais>USA</Pais>
         <Compania>Columbia</Compania>
@@ -33,7 +33,7 @@
         <anio>1997</anio>
     </CD>
 
-    <CD=titulo "La canción de Juan Perro">
+    <CD titulo="La canción de Juan Perro">
         <Artista>Radio Futura</Artista>
         <Pais>España</Pais>
         <Compania>Sony Music-Ariola</Compania>
@@ -41,7 +41,7 @@
         <anio>1987</anio>
     </CD>
 
-    <CD=titulo "The dock of the bay">
+    <CD titulo="The dock of the bay">
         <Artista>Otis Redding</Artista>
         <Pais>USA</Pais>
         <Compania>Atlantic</Compania>
