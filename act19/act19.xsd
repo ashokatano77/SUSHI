@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="lista_de_notas">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="nota">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="nota" type="xs:string"/>
+                        <xs:element name="para" type="xs:string"/>
+                        <xs:element name="de" type="xs:string"/>
+                        <xs:element name="titulo" type="xs:string"/>
+                        <xs:element name="contenido" type="xs:string"/>
+                    </xs:sequence>
+                    <xsd:attribute name=”dia” type=”int” use=”optional”/>
+                    <xsd:attribute name=”hora” type=”int” use=”optional”/>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+</xs:element>
+</xs:schema>
