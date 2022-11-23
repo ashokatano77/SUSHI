@@ -5,6 +5,7 @@
         <xs:sequence>
             <xs:element name="nota">
                 <xs:complexType>
+                    
                     <xs:sequence>
                         <xs:element name="nota" type="xs:string"/>
                         <xs:element name="para" type="xs:string"/>
@@ -12,8 +13,10 @@
                         <xs:element name="titulo" type="xs:string"/>
                         <xs:element name="contenido" type="xs:string"/>
                     </xs:sequence>
-                    <xsd:attribute name=”dia” type=”int” use=”optional”/>
-                    <xsd:attribute name=”hora” type=”int” use=”optional”/>
+            
+                    <xs:attribute name="dia" type= "xs:date" />
+                    <xs:attribute name="hora" type= "xs:time"/>
+                    
                 </xs:complexType>
             </xs:element>
         </xs:sequence>
