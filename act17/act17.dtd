@@ -5,7 +5,7 @@
 <!ELEMENT titulo (#PCDATA)>
 <!ELEMENT contenido (#PCDATA)>
 <!ATTLIST nota fecha CDATA (#IMPLIED)>
-<!ATTLIST nota CDATA (#IMPLIED)>
+<!ATTLIST nota hora CDATA (#IMPLIED)>
 
 
 
