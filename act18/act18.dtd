@@ -1,25 +1,15 @@
 
-
-
-
-<!ELEMENT factura (datos_empresa , datos_cliente , datos_factura )>
-
-
-
-
-
-<!ELEMENT datos_empresa (nombre, dir, población, provincia, cif, telefono)>
+<!ELEMENT factura (datos_empresa, datos_cliente, datos_factura)>
+<!ELEMENT datos_empresa (nombre, dir, poblacion, provincia, cif, telefono)>
 <!ELEMENT nombre (#PCDATA)>
 <!ELEMENT dir (#PCDATA)>
 <!ELEMENT poblacion (#PCDATA)>
 <!ELEMENT provincia (#PCDATA)>
 <!ELEMENT cif (#PCDATA)>
-<!ELEMENT telefono (#PCDATA)>
-
+<!ELEMENT telefono EMPTY>
 <!ELEMENT datos_cliente (nombre, dir_env, poblacion, provincia)>
 <!ELEMENT dir_env (#PCDATA)>
-
-<!ELEMENT datos_factura (fecha, linea, base, cuota_iva, total)>
+<!ELEMENT datos_factura (fecha, linea*, base, cuota_iva, total)>
 <!ELEMENT fecha (#PCDATA)>
 <!ELEMENT linea (ref, desc, cant, precio, importe)>
 <!ELEMENT ref (#PCDATA)>
@@ -33,19 +23,20 @@
 
 
 
-
-
-
-
-
-
-
 <!ATTLIST factura n_fac CDATA #REQUIRED>
-<!ATTLIST datos_cliente n_cli CDATA #REQUIRED>
-<!ATTLIST datos_cliente iva CDATA #REQUIRED>
-<!ATTLIST datos_cliente f_pago CDATA #REQUIRED>
-<!ATTLIST datos_cliente moneda CDATA #REQUIRED>
 <!ATTLIST poblacion cod_postal CDATA #REQUIRED>
+<!ATTLIST datos_cliente n_cli CDATA #REQUIRED>
+
+<!ATTLIST datos_factura  n_ped CDATA #REQUIRED>
+<!ATTLIST datos_factura  iva CDATA #FIXED "16">
+<!ATTLIST datos_factura  f_pago CDATA #REQUIRED>
+<!ATTLIST datos_factura  moneda CDATA #REQUIRED>
+
+
+
+
+
+
 
 
 

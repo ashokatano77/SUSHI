@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE factura SYSTEM 'act18.dtd' >
+<!DOCTYPE factura SYSTEM "act18.dtd" >
 
 <factura n_fac="f999"> 
 
@@ -10,8 +10,8 @@
     <poblacion cod_postal="28043">Madrid</poblacion> 
     <provincia>Madrid</provincia> 
     <cif>Q-9876543</cif> 
-    <telefono/> 
-    </datos_empresa> 
+    </telefono>
+    </datos_empresa>
 
    
    
@@ -23,6 +23,7 @@
     </datos_cliente> 
    
     <datos_factura n_ped="p731" iva="16" f_pago= "efectivo" moneda="euro"> 
+   
     <fecha>12-01-2005</fecha> 
     
     <linea> 
@@ -60,7 +61,7 @@
     <base>970,00</base> 
     <cuota_iva>155,20</cuota_iva>
     <total>1125,20</total> 
-    </datos_factura>
+</datos_factura>
 
 
 
