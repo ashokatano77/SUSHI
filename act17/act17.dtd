@@ -4,8 +4,9 @@
 <!ELEMENT de (#PCDATA)>
 <!ELEMENT titulo (#PCDATA)>
 <!ELEMENT contenido (#PCDATA)>
-<!ATTLIST nota fecha CDATA (#IMPLIED)>
-<!ATTLIST nota hora CDATA (#IMPLIED)>
+
+<!ATTLIST nota fecha CDATA #IMPLIED>
+<!ATTLIST nota hora CDATA #IMPLIED>
 
 
 
