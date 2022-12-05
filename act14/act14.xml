@@ -3,27 +3,27 @@
 <ARBOLES>
   
 
-<ESPECIE1 etimologia="Acer monspessulanum">
+<ARBOL etimologia="Acer monspessulanum">
     <nombre>Arce de Montpellier, Arce menor</nombre>
     <vegetacion>Caducifolio</vegetacion>
     <altura>De 6 a 10 metros</altura>
     <formayestructura>Copa esférica. Tronco principal recto con bifurcaciones. Ramaje colgante</formayestructura>
     <colorenprimavera>Haz verde brillante, envés verde blanquecino</colorenprimavera>
     <resistenciaheladas>Heladas fuertes (hasta -15ºC)</resistenciaheladas>
-</ESPECIE1>
+</ARBOL>
 
 
-<ESPECIE1> etimologia="Olea europea">
+<ARBOL etimologia="Olea europea">
     <nombre>Olivo</nombre>
     <vegetacion>Perenne</vegetacion>
     <altura>De 8 a 15 metros</altura>
     <formayestructura>Copa irregular. Tronco principal irregular con bifurcaciones.Ramaje tortuoso</formayestructura>
     <colorenprimavera>Haz verde oscuro, envés verde plateado</colorenprimavera>
     <resistenciaheladas>Heladas medias (hasta -10ºC)</resistenciaheladas>
-</ESPECIE1>
+</ARBOL>
 
 
-<ESPECIE2 etimologia="Platanus orientalis">
+<ARBOL etimologia="Platanus orientalis">
     <nombre>Platano</nombre>
     <vegetacion>Caducifolio</vegetacion>
     <altura>De 20 a 25 metros</altura>
@@ -31,10 +31,10 @@
     <colorenprimavera>Haz verde medio, enves verde claro</colorenprimavera>
     <colorotoño>Color en otoño: Ocre</colorotoño>
     <resistenciaheladas>Heladas fuertes (hasta -20ºC)</resistenciaheladas>
-</ESPECIE2>
+</ARBOL>
 
 
-<ESPECIE1 etimologia="Quercus ilex">
+<ARBOL etimologia="Quercus ilex">
     <nombre>Encina</nombre>
     <vegetacion>Perenne</vegetacion>
     <altura>En torno a 25 metros</altura>
@@ -42,6 +42,6 @@
     <colorenprimavera>Plateado en hojas jóvenes. En hojas antiguas, haz verde oscuro, envés plateado</colorenprimavera>
     <resistenciaheladas>Heladas fuertes (hasta -15ºC) 
 </resistenciaheladas>
-</ESPECIE1>
+</ARBOL>
 
 </ARBOLES>
