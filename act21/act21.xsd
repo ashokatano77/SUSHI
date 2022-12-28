@@ -1,18 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
-<xs:element name= "acontecimiento">
-   <xs:complexType>
-       <xs:sequence>
-           <xs:element name="hecho">
-               <xs:complexType>
-                   <xs:sequence>
-                       <xs:element name="dia" type="xs:int"/>
-                       <xs:element name="mes" type="xs:int"/>
-                       <xs:element name="año" type="xs:int"/>
-                   </xs:sequence>
-               </xs:complexType>
-           </xs:element>
-       </xs:sequence>
-   </xs:complexType>
-</xs:element>
+
+
+
+
+    <xs:element name="acontecimiento">
+        <xs:complexType>
+            <xs:sequence>
+
+                <xs:element name="hecho" maxOccurs="unbounded">
+                <xs:complexType>
+                <xs:sequence>
+                            <xs:element name="fecha">
+                            <xs:complexType>
+                            <xs:sequence>
+
+                                        <xs:element name="dia" type="xs:string" />
+                                        <xs:element name="mes" type="xs:string" />
+                                        <xs:element name="anio" type="xs:string" />
+                                    
+                            </xs:sequence>
+                            </xs:complexType>
+                            </xs:element>
+
+                </xs:sequence>
+                <xs:attribute name="suceso" use="required" />
+                </xs:complexType>
+                </xs:element>
+                        
+                        
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+
+
+
 </xs:schema>

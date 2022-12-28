@@ -1,19 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="act21.xsl" type="text/xsl"?>
-<acontecimiento>
-    <fecha hecho="IBM da a conocer el PC">
+ <?xml-stylesheet href="act21.xsl" type="text/xsl"?>
+ <acontecimiento xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="act21.xsd">
+
+ 
+
+    <hecho suceso="IBM da a conocer el PC">
+    <fecha>
         <dia>12</dia>
         <mes>8</mes>
         <anio>1981</anio>
     </fecha>
-    <fecha hecho="Se funda Google">
+    
+    </hecho>
+
+    <hecho suceso="Se funda Google">
+    <fecha>
         <dia>4</dia>
         <mes>9</mes>
         <anio>1998</anio>
     </fecha>
-    <fecha hecho="Se funda facebook">
+    </hecho>
+
+
+     <hecho suceso="Se funda facebook">
+    <fecha >
         <dia>4</dia>
         <mes>2</mes>
         <anio>2004</anio>
     </fecha>
+   </hecho>
+
  </acontecimiento>
