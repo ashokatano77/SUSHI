@@ -23,7 +23,7 @@
                             <xsl:for-each select="fecha">
 
                                 <td>
-                                    <xsl:value-of select="año" />
+                                    <xsl:value-of select="anio" />
                                 </td>
                                 <td>
                                     <xsl:value-of select="mes" />

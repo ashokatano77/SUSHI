@@ -1,18 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <acontecimiento>
-    <fecha hecho="IBM da a conocer el PC">
+<hecho suceso="IBM da a conocer el PC">
+    <fecha>
         <dia>12</dia>
         <mes>8</mes>
         <anio>1981</anio>
     </fecha>
-    <fecha hecho="Se funda Google">
+    
+    </hecho>
+
+    <hecho suceso="Se funda Google">
+    <fecha>
         <dia>4</dia>
         <mes>9</mes>
         <anio>1998</anio>
     </fecha>
-    <fecha hecho="Se funda facebook">
+    </hecho>
+
+
+     <hecho suceso="Se funda facebook">
+    <fecha >
         <dia>4</dia>
         <mes>2</mes>
         <anio>2004</anio>
     </fecha>
- </acontecimiento>
+   </hecho>
+</acontecimiento>
