@@ -12,7 +12,7 @@
                 <th>Título</th>
                 <th>Artista</th>
                 <th>País</th>
-                <th>Compañía discográfia</th>
+                <th>Compañía discográfica</th>
                 <th>Precio</th>
                 <th>Año de publicación</th>
             </tr>
