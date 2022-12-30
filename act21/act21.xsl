@@ -23,13 +23,13 @@
                             <xsl:for-each select="fecha">
 
                                 <td>
-                                    <xsl:value-of select="anio" />
+                                    <xsl:value-of select="dia" />
                                 </td>
                                 <td>
                                     <xsl:value-of select="mes" />
                                 </td>
                                 <td>
-                                    <xsl:value-of select="dia" />
+                                    <xsl:value-of select="anio" />
                                 </td>
 
                             </xsl:for-each>

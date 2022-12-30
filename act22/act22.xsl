@@ -23,7 +23,7 @@
                     </td>
 
                     <td>
-                        <xsl:value-of select="Aritista" />
+                        <xsl:value-of select="Artista" />
                     </td>
 
                     <td>
@@ -31,7 +31,7 @@
                     </td>
 
                     <td>
-                        <xsl:value-of select="Compañia" />
+                        <xsl:value-of select="Compania" />
                     </td>
 
                     <td>
