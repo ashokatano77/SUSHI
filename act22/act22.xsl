@@ -4,7 +4,7 @@
 <html>
     <head></head>
     <body>
-        <table BORDER="1px">
+        <table border="1">
             <tr>
                 <th colspan="6">CDs EN OFERTA</th>
             </tr>
