@@ -35,7 +35,7 @@
 
                             </td>
                         </tr>
-                    </xsl:for-each>   
+                      
                     <xsl:for-each select="/FACTURA/registro"> 
 
 
@@ -49,7 +49,7 @@
                                 <br />
                             </td>
                         </tr>
-                    </xsl:for-each>
+                    
                        
                     <tr>
                             <td colspan="12">
@@ -75,7 +75,7 @@
                                 </td>
                             </tr>
 
-                        </xsl:for-each>
+                        
 
                             <tr>
                                 <td colspan="12">
@@ -151,7 +151,9 @@
                                 </tr>
 
                             </xsl:for-each>
-
+                        </xsl:for-each>
+                        </xsl:for-each>
+                        </xsl:for-each> 
 
                             
 
