@@ -74,6 +74,8 @@
                                 <xs:sequence>
 
                                 <xs:element name="baseimponible" type="xs:string"/>
+                                <xs:element name="iva" type="xs:string"/>
+                                <xs:element name="cuotaiva" type="xs:string"/>
 
                                 </xs:sequence>
                             </xs:complexType>
