@@ -6,41 +6,32 @@
     <body>
         <table border="1">
             <tr>
-                <th colspan="6">CDs EN OFERTA</th>
+                <td colspan="13">
+                    <b><center>CD's EN OFERTA</center></b>
+                </td>
             </tr>
             <tr>
-                <th>Título</th>
-                <th>Artista</th>
-                <th>País</th>
-                <th>Compañía discográfica</th>
-                <th>Precio</th>
-                <th>Año de publicación</th>
+                <td colspan="4"><b>Titulo</b></td>
+                <td colspan="2"><b>Artista</b></td>
+                <td colspan="2"><b>Pais</b></td>
+                <td colspan="3"><b>Compañia discográfica</b></td>
+                <td><b>Precio</b></td>
+                <td><b>Año de publicación</b></td>
             </tr>
+
             <xsl:for-each select="OFERTA/CD">
                 <tr>
-                    <td>
-                        <xsl:value-of select="@titulo" />
-                    </td>
+                    <td colspan="4"><xsl:value-of select="@titulo" /></td>
 
-                    <td>
-                        <xsl:value-of select="Artista" />
-                    </td>
+                    <td colspan="2"><xsl:value-of select="Artista" /></td>
 
-                    <td>
-                        <xsl:value-of select="Pais" />
-                    </td>
+                    <td colspan="2"><xsl:value-of select="Pais"/></td>
 
-                    <td>
-                        <xsl:value-of select="Compania" />
-                    </td>
+                    <td colspan="3"><xsl:value-of select="Compania"/></td>
 
-                    <td>
-                        <xsl:value-of select="Precio" />
-                    </td>
+                    <td><xsl:value-of select="Precio"/></td>
 
-                    <td>
-                        <xsl:value-of select="anio" />
-                    </td>
+                    <td><xsl:value-of select="anio"/></td>
                     
                 </tr>
             </xsl:for-each>
