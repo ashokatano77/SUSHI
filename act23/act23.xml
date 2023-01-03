@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<FACTURA numero="999">
+<?xml-stylesheet href="act23.xsl" type="text/xsl"?>
+<FACTURA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="act23.xsd">
+
     
 
 
@@ -83,6 +86,7 @@
 
 
 </FACTURA>
+
     
         
 

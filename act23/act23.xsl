@@ -1,16 +1,23 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <xsl:template match="/">
         <html>
             <head></head>
             <body>
-                <table BORDER="1px">
+                <table border="1">
                     <tr>
-                        <th colspan="6">Factura n.999</th>
+                        <td colspan="12">
+                            <center><b>FACTURA nº999</b></center>
+                        </td>
                     </tr>
-                    <xsl:for-each select="Factura/proveedor">
+
+
+
+
+
+                    <xsl:for-each select="/FACTURA/proveedor">
                         <tr>
-                            <td colspan="3">
+                            <td colspan="8">
                                 <xsl:value-of select="empresa" />
                                 <br />
                                 <xsl:value-of select="calle" />
@@ -24,10 +31,16 @@
                                 <xsl:value-of select="fax" />
                                 <br />
 
-                    
+                        
 
                             </td>
-                            <td colspan="3">
+                        </tr>
+                    </xsl:for-each>   
+                    <xsl:for-each select="/FACTURA/registro"> 
+
+
+                        <tr>
+                            <td colspan="4">
                                 <xsl:value-of select="fecha" />
                                 <br />
                                 <xsl:value-of select="pedido" />
@@ -38,11 +51,14 @@
                         </tr>
 
                         <tr>
-                            <th colspan="6">Datos Cliente</th>
+                            <td colspan="12">
+                                <p><b>Datos CLIENTE</b></p>
+                            </td>
                         </tr>
-                        <xsl:for-each select="/Factura/datos_cliente">
+
+                        <xsl:for-each select="/FACTURA/datoscliente">
                             <tr>
-                                <td colspan="6">
+                                <td colspan="12">
                                     <xsl:value-of select="numero" />
                                     <br />
                                     <xsl:value-of select="nombre" />
@@ -59,18 +75,23 @@
                             </tr>
 
                             <tr>
-                                <th colspan="6">Datos Factura</th>
+                                <td colspan="12">
+                                    <p><b>Datos FACTURA</b></p>
+                                </td>
                             </tr>
 
                             <tr>
-                                <th>REF</th>
-                                <th>Descripción</th>
-                                <th>Cantidad</th>
-                                <th>Precio</th>
-                                <th>IVA</th>
-                                <th>Importe</th>
+                                <td colspan="2">
+                                    REF.
+                                </td>
+                                <td colspan="5">DESCRIPCIÓN </td>
+                                <td>CANT.</td>
+                                <td>PRECIO.</td>
+                                <td>I.V.A</td>
+                                <td colspan="2">IMPORTE</td>
                             </tr>
-                            <xsl:for-each select="/Factura/datosfactura/dato">
+
+                            <xsl:for-each select="/FACTURA/datosfactura/dato">
                                 <tr>
                                     <td>
                                         <xsl:value-of select="ref" />
@@ -93,25 +114,30 @@
                                 </tr>
 
                             </xsl:for-each>
+
+                            
                             <tr>
-                                <th colspan="2">Base_imponible</th>
-                                <th colspan="2">cant_IVA</th>
-                                <th colspan="2">Cuota_IVA</th>
+                                <td colspan="7"><b>Base imponible</b></td>
+                                <td colspan="2"><b>%I.V.A</b></td>
+                                <td colspan="3"><b>Cuota I.V.A</b></td>
                             </tr>
-                            <xsl:for-each select="/Factura/datos_factura/totaldatos">
+
+                            <xsl:for-each select="/FACTURA/datosfactura/totaldatos">
                                 <tr>
-                                    <td colspan="2">
+                                    <td colspan="7">
                                         <xsl:value-of select="baseimponible" />
                                     </td>
                                     <td colspan="2">
                                         <xsl:value-of select="iva" />
                                     </td>
-                                    <td colspan="2">
+                                    <td colspan="3">
                                         <xsl:value-of select="cuotaiva" />
                                     </td>
                                 </tr>
+
+
                                 <tr>
-                                    <td colspan="6">
+                                    <td colspan="12">
                                         <center>
                                             <xsl:value-of select="cantidad" />
                                         </center>
@@ -119,8 +145,12 @@
                                 </tr>
 
                             </xsl:for-each>
+
+
+
                         </xsl:for-each>
                     </xsl:for-each>
+                   
                 </table>
             </body>
         </html>
