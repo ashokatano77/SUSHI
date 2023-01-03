@@ -133,9 +133,11 @@
                                     </td>
                                 </tr>
 
-                                
-                        
+                            </xsl:for-each>
 
+
+
+                            <xsl:for-each select="/FACTURA/datosfactura/totalfactura/">
 
                                 <tr>
                                     <td colspan="12">
@@ -148,9 +150,12 @@
                             </xsl:for-each>
 
 
+                            </xsl:for-each>
+
+
 
                         </xsl:for-each>
-                    </xsl:for-each>
+                    
                    
                 </table>
             </body>
