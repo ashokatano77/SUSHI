@@ -17,7 +17,7 @@
 
                     <xsl:for-each select="/FACTURA/proveedor">
                         <tr>
-                            <td colspan="8">
+                            <td colspan="12">
                                 <xsl:value-of select="empresa" />
                                 <br />
                                 <xsl:value-of select="calle" />
@@ -40,7 +40,7 @@
 
 
                         <tr>
-                            <td colspan="4">
+                            <td colspan="12">
                                 <xsl:value-of select="fecha" />
                                 <br />
                                 <xsl:value-of select="pedido" />
@@ -81,9 +81,7 @@
                             </tr>
 
                             <tr>
-                                <td colspan="2">
-                                    REF.
-                                </td>
+                                <td colspan="2">REF.</td>
                                 <td colspan="5">DESCRIPCIÓN </td>
                                 <td>CANT.</td>
                                 <td>PRECIO.</td>
@@ -93,10 +91,10 @@
 
                             <xsl:for-each select="/FACTURA/datosfactura/dato">
                                 <tr>
-                                    <td>
+                                    <td colspan="2">
                                         <xsl:value-of select="ref" />
                                     </td>
-                                    <td>
+                                    <td colspan="5">
                                         <xsl:value-of select="descripcion" />
                                     </td>
                                     <td>
@@ -108,7 +106,7 @@
                                     <td>
                                         <xsl:value-of select="iva" />
                                     </td>
-                                    <td>
+                                    <td colspan="2">
                                         <xsl:value-of select="importe" />
                                     </td>
                                 </tr>
@@ -134,6 +132,11 @@
                                         <xsl:value-of select="cuotaiva" />
                                     </td>
                                 </tr>
+
+                                <tr>
+                                    <td colspan="12">   <br>   </td>
+                                </tr>
+                        
 
 
                                 <tr>
