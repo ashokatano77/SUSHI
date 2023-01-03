@@ -74,11 +74,20 @@
                             <xs:complexType>
                                 <xs:sequence>
 
-                                <xs:element name="baseimponible" type="xs:string"
+                                <xs:element name="baseimponible" type="xs:string"/>
 
                                 </xs:sequence>
                             </xs:complexType>
                         </xs:element>
+
+                        <xs:element name="totalfactura">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="cantidad" type="xs:string"/>
+                                </xs:sequence>
+                            </xs:complexType>
+                        </xs:element>
+                           
 
                         </xs:sequence>
                     </xs:complexType>
