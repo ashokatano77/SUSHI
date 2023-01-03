@@ -72,9 +72,9 @@
         </dato>
         
         <totaldatos>
-            <baseimponible>Base imponible  970,00 eur.</baseimponible>
-            <iva>% I.V.A  16</iva>
-            <cuotaiva>Cuota I.V.A  155,20 eur.</cuotaiva>
+            <baseimponible>970,00 eur.</baseimponible>
+            <iva>16</iva>
+            <cuotaiva>155,20 eur.</cuotaiva>
         </totaldatos>
         
         <totalfactura>

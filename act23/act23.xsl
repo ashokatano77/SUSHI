@@ -49,8 +49,9 @@
                                 <br />
                             </td>
                         </tr>
-
-                        <tr>
+                    </xsl:for-each>
+                       
+                    <tr>
                             <td colspan="12">
                                 <p><b>Datos CLIENTE</b></p>
                             </td>
@@ -73,6 +74,8 @@
                                     <br />
                                 </td>
                             </tr>
+
+                        </xsl:for-each>
 
                             <tr>
                                 <td colspan="12">
@@ -150,12 +153,11 @@
                             </xsl:for-each>
 
 
-                            </xsl:for-each>
+                            
 
 
 
-                        </xsl:for-each>
-                    
+                        
                    
                 </table>
             </body>
