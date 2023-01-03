@@ -4,6 +4,14 @@
 <html>
     <head></head>
     <body>
+
+        <style>
+            #table{
+                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+            }
+    
+        </style>
+
         <table border="1">
             <tr>
                 <td colspan="13">
