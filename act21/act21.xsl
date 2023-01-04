@@ -6,13 +6,13 @@
             <body>
                 <table border="1px">
                     <tr>
-                        <th rowspan="2">Descripcion de cada hecho </th>
-                        <th colspan="3">fecha</th>
+                        <th rowspan="2" colour="blue">Descripcion de cada hecho </th>
+                        <th colspan="3">Fecha</th>
                     </tr>
                     <tr>
-                        <th>año</th>
-                        <th>mes</th>
-                        <th>dia</th>
+                        <th>Año</th>
+                        <th>Mes</th>
+                        <th>Dia</th>
                     </tr>
                     <xsl:for-each select="acontecimiento/hecho">
 
