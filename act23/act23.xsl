@@ -9,7 +9,7 @@
         <body fonttype="Courier New">
             
         
-            <table border="1" >
+            <table border="1" font="Courier New">
 
                 <font type="Courier New">
                 
