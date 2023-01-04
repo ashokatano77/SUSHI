@@ -9,7 +9,7 @@
 
         <table border="1">
 
-            <font type="arial">
+            <font type="arial narrow">
                 
         
             
