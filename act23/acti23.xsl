@@ -129,7 +129,7 @@
                                 <td colspan="3"><b>Cuota I.V.A</b></td>
                             </tr>
 
-                            <xsl:for-each select="/FACTURA/datosfactura/totaldatos">
+                            
                                 <tr>
                                     <td colspan="7">
                                         <xsl:value-of select="baseimponible" />
@@ -142,8 +142,7 @@
                                     </td>
                                 </tr>
 
-                            </xsl:for-each>
-
+                            
 
 
                             <xsl:for-each select="/FACTURA/datosfactura/totalfactura/">
