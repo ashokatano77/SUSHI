@@ -3,17 +3,14 @@
     <xsl:template match="/">
     <html>
         <head>
-            <style type="text/css">
-                body {
-                  font-family: "Courier New", serif;
-                }
-              </style>
+            
 
         </head>
         <body>
             
         
-            <table border="1">
+            <table border="1"  >
+                <font type="Courier New">
                 
                     <tr>
                         <td colspan="12">
@@ -181,7 +178,7 @@
             </xsl:for-each>
 
 
-
+        </font>
             </table>
         </body>
     </html>
