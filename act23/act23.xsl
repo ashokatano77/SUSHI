@@ -15,7 +15,7 @@
 
 
 
-                    <xsl:for-each select="/FACTURA/proveedor">
+                    <xsl:for-each select="FACTURA/proveedor">
                         <tr>
                             <td colspan="12">
                                 <xsl:value-of select="empresa" />
@@ -35,7 +35,8 @@
 
                             </td>
                         </tr>
-                      
+                    </xsl:for-each>
+
                     <xsl:for-each select="/FACTURA/registro"> 
 
 
@@ -49,7 +50,7 @@
                                 <br />
                             </td>
                         </tr>
-                    
+                    </xsl:for-each>
                        
                     <tr>
                             <td colspan="12">
@@ -75,6 +76,8 @@
                                 </td>
                             </tr>
 
+                        </xsl:for-each>
+
                         
 
                             <tr>
@@ -91,6 +94,8 @@
                                 <td>I.V.A</td>
                                 <td colspan="2">IMPORTE</td>
                             </tr>
+
+
 
                             <xsl:for-each select="/FACTURA/datosfactura/dato">
                                 <tr>
@@ -151,10 +156,10 @@
                                 </tr>
 
                             </xsl:for-each>
-                        </xsl:for-each>
-                        </xsl:for-each>
-                        </xsl:for-each> 
-
+                        
+                        
+                        
+                        
                             
 
 
