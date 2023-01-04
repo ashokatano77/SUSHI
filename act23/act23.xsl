@@ -6,12 +6,12 @@
             
 
         </head>
-        <body fonttype="Courier New">
+        <body>
             
-        
-            <table border="1" font="Courier New">
+            <font type="Courier New">
+            <table border="1">
 
-                <font type="Courier New">
+                
                 
                     <tr>
                         <td colspan="12">
@@ -179,8 +179,9 @@
             </xsl:for-each>
 
 
-        </font>
+        
             </table>
+        </font>
         </body>
     </html>
 
