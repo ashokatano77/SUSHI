@@ -113,13 +113,16 @@
                             </xsl:for-each>
 
 
-                   <tr>
+                            <tr>
                                 <td colspan="7"><b>Base imponible</b></td>
                                 <td colspan="2"><b>%I.V.A</b></td>
                                 <td colspan="3"><b>Cuota I.V.A</b></td>
                             </tr>
 
-                          
+                            <tr>
+                                <td colspan="12">   <br>   </td>
+                            </tr>
+                    
 
 
 
