@@ -6,10 +6,11 @@
             
 
         </head>
-        <body>
+        <body fonttype="Courier New">
             
         
-            <table border="1"  >
+            <table border="1" >
+
                 <font type="Courier New">
                 
                     <tr>
