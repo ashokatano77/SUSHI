@@ -5,14 +5,13 @@
     <head></head>
     <body>
 
-        <style>
-            #table{
-                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-            }
-    
-        </style>
+        
 
         <table border="1">
+            <font type='Franklin Gothic Medium'>
+                
+        
+            </style>
             <tr>
                 <td colspan="13">
                     <b><center>CD's EN OFERTA</center></b>
@@ -43,6 +42,7 @@
                     
                 </tr>
             </xsl:for-each>
+        </font>
         </table>
     </body>
 </html>
