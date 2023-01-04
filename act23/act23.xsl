@@ -136,17 +136,7 @@
 
 
 
-                            <xsl:for-each select="/FACTURA/datosfactura/totalfactura/">
-
-                                <tr>
-                                    <td colspan="12">
-                                        <center>
-                                            <xsl:value-of select="cantidad" />
-                                        </center>
-                                    </td>
-                                </tr>
-
-                            </xsl:for-each>
+                            
             
             
             
