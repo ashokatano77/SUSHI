@@ -8,11 +8,11 @@
         
 
         <table border="1">
-            
-            <font type="Franklin Gothic Medium">
+
+            <font type="arial">
                 
         
-            </style>
+            
             <tr>
                 <td colspan="13">
                     <b><center>CD's EN OFERTA</center></b>
