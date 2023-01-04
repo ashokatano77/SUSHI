@@ -136,7 +136,7 @@
 
                          
 
-                            <xsl:for-each select="/FACTURA/datosfactura/totalfactura/">
+                            <xsl:for-each select="/FACTURA/datosfactura/totalfactura">
 
                             <tr>
                                 <td colspan="12">
