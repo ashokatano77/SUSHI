@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-<xsl:template match="p">
-    <fo:block font-family="Courier New">
-      <xsl:apply-templates />
-    </fo:block>
+    <xsl:template match="/">
     <html>
         <head></head>
         <body>
