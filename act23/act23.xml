@@ -78,7 +78,7 @@
         </totaldatos>
         
         <totalfactura>
-            <cantidad>TOTAL FACTURA:   1125,20 eur.</cantidad>
+            <cantidad> <b>TOTAL FACTURA:</b>   1125,20 eur.</cantidad>
          </totalfactura>
         
     </datosfactura>
