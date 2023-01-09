@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="FACTURA">
+    
+    <xs:complexType>
+        <xs:sequence>
+
+        
+
+                <xs:element name="proveedor" > 
+                    <xs:complexType>
+                        <xs:sequence>
+
+                        <xs:element name="empresa" type="xs:string"/>
+                        <xs:element name="calle" type="xs:string"/>
+                        <xs:element name="provincia" type="xs:string"/>
+                        <xs:element name="cif" type="xs:string"/>
+                        <xs:element name="telefono" type="xs:string"/>
+                        <xs:element name="fax" type="xs:string"/>
+                        
+                       </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="registro">
+                    <xs:complexType>
+                        <xs:sequence>
+
+                            <xs:element name="fecha" type="xs:string"/>
+                            <xs:element name="pedido" type="xs:string"/>
+                            <xs:element name="formadepago" type="xs:string"/>
+
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="datoscliente">
+                    <xs:complexType>
+                        <xs:sequence>
+
+                            <xs:element name="numero" type="xs:string"/>
+                            <xs:element name="nombre" type="xs:string"/>
+                            <xs:element name="direccion" type="xs:string"/>
+                            <xs:element name="poblacion" type="xs:string"/>
+                            <xs:element name="codigopostal" type="xs:string"/>
+                            <xs:element name="provincia" type="xs:string"/>
+
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="datosfactura">
+                    <xs:complexType>
+                        <xs:sequence>
+
+                        <xs:element name="dato" maxOccurs="unbounded">
+                            <xs:complexType>
+                                <xs:sequence>
+
+                                    <xs:element name="ref" type="xs:string"/>
+                                    <xs:element name="descripcion" type="xs:string"/>
+                                    <xs:element name="cantidad" type="xs:string"/>
+                                    <xs:element name="precio" type="xs:string"/>
+                                    <xs:element name="iva" type="xs:string"/>
+                                    <xs:element name="importe" type="xs:string"/>
+
+
+                                </xs:sequence>
+                            </xs:complexType>
+                        </xs:element>
+
+                        <xs:element name="totaldatos">
+                            <xs:complexType>
+                                <xs:sequence>
+
+                                <xs:element name="baseimponible" type="xs:string"/>
+                                <xs:element name="iva" type="xs:string"/>
+                                <xs:element name="cuotaiva" type="xs:string"/>
+
+                                </xs:sequence>
+                            </xs:complexType>
+                        </xs:element>
+
+                        <xs:element name="totalfactura">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="cantidad" type="xs:string"/>
+                                </xs:sequence>
+                            </xs:complexType>
+                        </xs:element>
+                           
+
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+
+
+                
+
+        </xs:sequence>
+    </xs:complexType>
+</xs:element>
+
+
+</xs:schema>

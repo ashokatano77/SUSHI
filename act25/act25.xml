@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="act23.xsl" type="text/xsl"?>
+<?xml-stylesheet href="act25.xsl" type="text/xsl"?>
 <FACTURA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
- xsi:noNamespaceSchemaLocation="act23.xsd">
+ xsi:noNamespaceSchemaLocation="act25.xsd">
 
     
 
@@ -78,7 +78,7 @@
         </totaldatos>
         
         <totalfactura>
-            <cantidad> TOTAL FACTURA: 1125,20 eur. </cantidad>
+            <cantidad> TOTAL FACTURA:   1125,20 eur.</cantidad>
          </totalfactura>
         
     </datosfactura>
@@ -86,11 +86,4 @@
 
 
 </FACTURA>
-
-    
         
-
-
-
-
-  
