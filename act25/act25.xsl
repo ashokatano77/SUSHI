@@ -19,7 +19,7 @@
     <xsl:value-of select="fax" />
 
     registro:
-    <xsl:for-each select="FACTURA/registro">
+    <xsl:for-each select="/FACTURA/registro">
     fecha:
     <xsl:value-of select="fecha" />
     pedido:
@@ -28,7 +28,7 @@
     <xsl:value-of select="formdepago" />
 
     datoscliente:
-    <xsl:for-each select="FACTURA/datoscliente">
+    <xsl:for-each select="/FACTURA/datoscliente">
     numero:
     <xsl:value-of select="numero" />
     nombre:
@@ -47,7 +47,7 @@
 
     dato:
 
-    <xsl:for-each select="FACTURA/datosfactura/dato">
+    <xsl:for-each select="/FACTURA/datosfactura/dato">
     -
     ref:
     <xsl:value-of select="ref" />
@@ -66,7 +66,7 @@
 
 
     totaldatos:
-    <xsl:for-each select="FACTURA/datosfactura/totaldatos">
+    <xsl:for-each select="/FACTURA/datosfactura/totaldatos">
     baseimponible:
     <xsl:value-of select="baseimponible" />
     iva:
@@ -77,7 +77,7 @@
     </xsl:for-each>
 
     totalfactura:
-    <xsl:for-each select="FACTURA/datosfactura/totalfactura">
+    <xsl:for-each select="/FACTURA/datosfactura/totalfactura">
     cantidad:
     <xsl:value-of select="cantidad" />
     </xsl:for-each>
