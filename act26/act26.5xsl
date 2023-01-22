@@ -21,14 +21,15 @@
       <xsl:value-of select="dcterms:alternative" />
       <xsl:value-of select="description" />
       <xsl:value-of select="category" />
-
+--------------------------------
       <xsl:for-each select="/rss/channel/item/media:content @url @type @medium">
         <xsl:value-of select="media:credit" />
         <xsl:value-of select="media:title" />
         <xsl:value-of select="media:text" />
         <xsl:value-of select="media:description" />
+        <xsl:value-of select="media:thumbnail @url" />
       </xsl:for-each>
-      
+  --------------------------------    
       <xsl:value-of select="content:encoded" />
 
       <xsl:for-each select="/RSS/channel/media content">
