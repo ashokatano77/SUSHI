@@ -1,54 +1,40 @@
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" 
+xmlns:dc="http://purl.org/dc/elements/1.1/" 
+xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+xmlns:dcterms="http://purl.org/dc/terms/" 
+xmlns:atom="http://www.w3.org/2005/Atom" 
+xmlns:media="http://search.yahoo.com/mrss/">
+    
 <xsl:template match="/">
+    <html>
+        <head>
+            <link rel="stylesheet" href="2.css"></link>
+          <title>Periódico</title>
+        </head>
+        <body>
+          <header>
+            <h1><xsl:value-of select="rss/channel/title"/></h1>
+            <h3><xsl:value-of select="rss/channel/description"/></h3>
+          </header>
+          <main>
+            <xsl:for-each select="rss/channel/item">
+              <article>
+                <h3><xsl:value-of select="title"/></h3>
+                <xsl:for-each select="media:content">
 
----
-<xsl:for-each select="rss @xmlns:dc @xmlns:content @xmlns:dcterms @xmlns:media" >
-    <xsl:for-each select="/rss/channel">
-    <xsl:value-of select="title" />
-    <xsl:value-of select="descrption" />
-    <xsl:value-of select="languaje" />
-    <xsl:value-of select="link" />
-    <xsl:value-of select="link" />
-    <xsl:value-of select="lastBuildDate" />
+                <img src="{@url}" alt="{media:description}" style="max-height:420px; max-width:800px"></img>
 
+                </xsl:for-each>
+                <p><xsl:value-of select="pubDate"/></p>
+                <p><xsl:value-of select="description"/></p>
+                <a href="{link}">Leer más</a>
     
-    
-    <xsl:for-each select="/rss/channel/item">
-      <xsl:value-of select="guid @isPermaLink" />
-      <xsl:value-of select="title" />
-      <xsl:value-of select="pubDate" />
-      <xsl:value-of select="link" />
-      <xsl:value-of select="dc:creator" />
-      <xsl:value-of select="dcterms:alternative" />
-      <xsl:value-of select="description" />
-      <xsl:value-of select="category" />
+              </article>
+            </xsl:for-each>
+          </main>
+        </body>
 
-      <xsl:for-each select="/rss/channel/item/media:content @url @type @medium">
-        <xsl:value-of select="media:credit" />
-        <xsl:value-of select="media:title" />
-        <xsl:value-of select="media:text" />
-        <xsl:value-of select="media:description" />
-      </xsl:for-each>
-      
-      <xsl:value-of select="content:encoded" />
-
-      <xsl:for-each select="/RSS/channel/media content">
-      </xsl:for-each>
-
-      <xsl:for-each select="/RSS/channel/media group">
-      </xsl:for-each>
-
-    </xsl:for-each>
-
-
-
-
-<xsl:value-of select="content:encoded" />
-
-
-
-</xsl:for-each>
-</xsl:for-each>
-
+</html>
 </xsl:template>
 </xsl:stylesheet>
