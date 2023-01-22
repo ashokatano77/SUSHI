@@ -9,18 +9,18 @@ xmlns:media="http://search.yahoo.com/mrss/">
 <xsl:template match="/">
     <html>
         <head>
-            <link rel="stylesheet" href="2.css"></link>
+            <link rel="stylesheet" href="act26.css"></link>
           <title>Periódico</title>
         </head>
         <body>
-          <header>
+          <div1>
             <h1><xsl:value-of select="rss/channel/title"/></h1>
-            <h3><xsl:value-of select="rss/channel/description"/></h3>
-          </header>
+            <b><xsl:value-of select="rss/channel/description"/></b>
+          </div1>
           <main>
             <xsl:for-each select="rss/channel/item">
               <article>
-                <h3><xsl:value-of select="title"/></h3>
+                <b><xsl:value-of select="title"/></b>
                 <xsl:for-each select="media:content">
 
                 <img src="{@url}" alt="{media:description}" style="max-height:420px; max-width:800px"></img>
