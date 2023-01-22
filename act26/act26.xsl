@@ -7,34 +7,62 @@ xmlns:atom="http://www.w3.org/2005/Atom"
 xmlns:media="http://search.yahoo.com/mrss/">
     
 <xsl:template match="/">
+
+
+
     <html>
         <head>
             <link rel="stylesheet" href="act26.css"></link>
           <title>Periódico</title>
         </head>
+
+
+
         <body>
+
           <div1>
             <h1><xsl:value-of select="rss/channel/title"/></h1>
             <b><xsl:value-of select="rss/channel/description"/></b>
           </div1>
+
+          <div2>
           <main>
+
+
+            
             <xsl:for-each select="rss/channel/item">
-              <article>
-                <b><xsl:value-of select="title"/></b>
+             
+            
+            
+            <article>
+                <p><xsl:value-of select="title"/></p>
+                
+                
                 <xsl:for-each select="media:content">
 
-                <img src="{@url}" alt="{media:description}" style="max-height:420px; max-width:800px"></img>
+                <img src="{@url}" alt="{media:description}" style="max-height:300px; max-width:600px"></img>
 
                 </xsl:for-each>
+                
+                
                 <p><xsl:value-of select="pubDate"/></p>
                 <p><xsl:value-of select="description"/></p>
-                <a href="{link}">Leer más</a>
-    
-              </article>
+                <a href="{link}">leer </a>
+            </article>
+
+
             </xsl:for-each>
+
+
+
           </main>
+        </div2>
+
         </body>
 
 </html>
+
+
+
 </xsl:template>
 </xsl:stylesheet>
