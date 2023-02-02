@@ -1,0 +1,40 @@
+doc("books.xml")/bib/libro/titulo
+
+(:nariz ola:)
+for $book in doc("books.xml")/bib/libro
+where &book/price>30
+order by $book/title
+return $book/title
+
+(por cada libro cuyo precio sea menor que 30 eneña el precio)
+
+ reutrn data
+ return<li>{data($book/title)}}li cerraqr
+
+
+dentro de un html (tmabien se puede hacer pero no poner la etiqueta de html 5, y recordar cerrar todo bien)
+<ul>
+ for $book in doc("books.xml")/bib/libro
+where &book/price>30
+order by $book/title
+return $book/title
+<ul>
+
+
+for $libro in doc ("books.xml")/bookstore/book
+return if ($libro/@category="children")
+then <li class ="children">{data($libro/title)}}</li>
+else <li class ="adulto">{data($libro/title)}}</li>
+
+
+comparaciones de valor solo sirven para 1, si hay mas de uno enuna consulta peta
+
+doc("books.xml")/bib/libro/rpecio >30 aqui bien 
+doc("books.xml")/bib/libro/rpecio gt30 aqui mal porque hay mas de un valor asi, y no sirve ese comando para las dos, solo sive para un solo valor
+f
+
+for $libro in doc ("books.xml")/bookstore/book
+return if ($libro/@category="children")
+then <li class ="children">{data($libro/title)}}</li>
+else <li class ="adulto">{data($libro/title)}}</li>
+
