@@ -38,3 +38,12 @@ return if ($libro/@category="children")
 then <li class ="children">{data($libro/title)}}</li>
 else <li class ="adulto">{data($libro/title)}}</li>
 
+
+doc("books.xml")/bib/libro/precio
+
+(:~ ~ :)
+
+doc("books.xml)/ boookstore/book/title xq
+(:~1. Listar el título de todos los libros (solo texto). ~ :)
+
+
