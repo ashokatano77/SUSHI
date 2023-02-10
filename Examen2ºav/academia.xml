@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="academia.xsl" type="text/xsl"?>
+<academia xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="academia.xsd">
+    <clase>
+        <estilo>Bachata</estilo>
+        <precio>60 €</precio>
+        <plazas>12</plazas>
+        <inicio>1.1.2023</inicio>
+        <fin>31.12.2023</fin>
+        <dias>Lunes, Miercoles</dias>
+        <profe>Fiona</profe>
+        <sala>1</sala>
+    </clase>
+
+    <clase>
+        <estilo>Tango</estilo>
+        <precio>70 €</precio>
+        <plazas>16</plazas>
+        <inicio>1.1.2023</inicio>
+        <fin>1.6.2023</fin>
+        <dias>Viernes</dias>
+        <profe>Sofia</profe>
+        <sala>2</sala>
+    </clase>
+
+
+    <clase>
+        <estilo>Twerk</estilo>
+        <precio>50 €</precio>
+        <plazas>25</plazas>
+        <inicio>1.1.2023</inicio>
+        <fin>1.9.2023</fin>
+        <dias>Martes, Jueves</dias>
+        <profe>Bruno </profe>
+        <sala>3</sala>
+    </clase>
+
+
+    <clase>
+        <estilo>Bals</estilo>
+        <precio>65 €</precio>
+        <plazas>18</plazas>
+        <inicio>1.1.2023</inicio>
+        <fin>1.4.2023</fin>
+        <dias>Miercoles</dias>
+        <profe>Bruno </profe>
+        <sala>1</sala>
+    </clase>
+
+    <clase>
+        <estilo>Sevillanas</estilo>
+        <precio>34 €</precio>
+        <plazas>20</plazas>
+        <inicio>1.1.2023</inicio>
+        <fin>31.12.2023</fin>
+        <dias>Lunes, Miercoles</dias>
+        <profe>Sofia </profe>
+        <sala>2</sala>
+    </clase>
+
+    <clase>
+        <estilo>Salsa</estilo>
+        <precio>55 €</precio>
+        <plazas>26</plazas>
+        <inicio>1.1.2023</inicio>
+        <fin>1.7.2023</fin>
+        <dias>Martes, Jueves</dias>
+        <profe>Fiona </profe>
+        <sala>3</sala>
+    </clase>
+
+
+    
+</academia>
+
+
+
+    

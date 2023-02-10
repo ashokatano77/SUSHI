@@ -3,21 +3,21 @@
 <html lang="en">
 <html>
 <body>
-    <p><b>Listado de libros</b></p>
+    <h1> LISTA DE LIBROS </h1>
     <table border="3">
         <tr>
-            <th align="left">Título</th>
-            <th align="left">Editorial</th>
-            <th align="right">precio</th>
+            <th align="left">TÍTULO</th>
+            <th align="left">EDITORIAL</th>
+            <th align="right">PRECIO</th>
         </tr>
         
-        for $x in doc("books.xml")/bib/libro
+        for $libro in doc("books.xml")/bib/libro
         return 
-
+        
         <tr>
-            <td>{data($x/titulo)}</td>
-            <td>{data($x/editorial)}</td>
-            <td>{data($x/precio)}</td>
+            <td>{data($libro/titulo)}</td>
+            <td>{data($libro/editorial)}</td>
+            <td>{data($libro/precio)}</td>
         </tr>
         
     </table>
