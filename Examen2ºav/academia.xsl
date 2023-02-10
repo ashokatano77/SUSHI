@@ -12,7 +12,7 @@
             <p>
 
             
-            <table border="1" >
+            <table border="1"  align="center">
         
                 <tr  align="center">
         
