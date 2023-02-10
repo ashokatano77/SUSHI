@@ -4,7 +4,7 @@
 <html>
     <head>
         <link rel="stylesheet" href="academia.css"></link>
-          
+       
     </head>
 
         <body>
@@ -27,7 +27,7 @@
                     <th><b>SALA</b></th>
                 </tr>
 
-            <xsl:for-each select="clase">
+            <xsl:for-each select="/academia/clase">
                 <tr align="center">
                     <th><b><xsl:value-of select="estilo" /> </b></th>
                     <th><b><xsl:value-of select="precio" /> </b></th>
