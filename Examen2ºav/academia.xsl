@@ -9,10 +9,12 @@
 
         <body>
 
+            
+
             <p>
 
             
-            <table border="1"  align="center">
+            <table border="solid"  align="center">
         
                 <tr  align="center">
         
@@ -48,6 +50,7 @@
 
 
         </p>
+    
         </body>
     
 </html>
