@@ -4,20 +4,20 @@ body {
     font-family:"";
     margin: 0;
     text-align: center;
-    background-color: rgb(229, 229, 229);
+    background-color: rgb(246, 211, 241);
   }
 
   p {
     
-   background-color: rgb(220, 209, 203);
+   background-color: rgb(236, 165, 226);
    font-family:'Trebuchet MS', sans-serif, sans-serif, monospace;
    margin: 0;
 
   }
 
   table {
-    border: 4em;
-    border: rgb(53, 85, 85);
+    border: 4;
+    border: rgb(255, 255, 255);
     align-self: center;
     text-align: center;
   }
