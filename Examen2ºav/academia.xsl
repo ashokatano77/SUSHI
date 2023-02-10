@@ -31,14 +31,14 @@
 
             <xsl:for-each select="/academia/clase">
                 <tr align="center">
-                    <th><b><xsl:value-of select="estilo" /> </b></th>
-                    <th><b><xsl:value-of select="precio" /> </b></th>
-                    <th><b><xsl:value-of select="plazas" /> </b></th>
-                    <th><b><xsl:value-of select="inicio" /> </b></th>
-                    <th><b><xsl:value-of select="fin" /> </b></th>
-                    <th><b><xsl:value-of select="dias" /> </b></th>
-                    <th><b><xsl:value-of select="profe" /> </b></th>
-                    <th><b><xsl:value-of select="sala" /> </b></th>
+                    <th><xsl:value-of select="estilo" /> </th>
+                    <th><xsl:value-of select="precio" /> </th>
+                    <th><xsl:value-of select="plazas" /> </th>
+                    <th><xsl:value-of select="inicio" /> </th>
+                    <th><xsl:value-of select="fin" /> </th>
+                    <th><xsl:value-of select="dias" /> </th>
+                    <th><xsl:value-of select="profe" /> </th>
+                    <th><xsl:value-of select="sala" /> </th>
                 </tr>
             
             </xsl:for-each>
