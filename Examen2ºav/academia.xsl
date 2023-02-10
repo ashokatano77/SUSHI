@@ -14,7 +14,7 @@
             <p>
 
             
-            <table  align="center">
+            <table border="0" align="center">
         
                 <tr  align="center">
         
