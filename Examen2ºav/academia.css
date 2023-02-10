@@ -1,15 +1,23 @@
 
 body {
-    font-family:'Calibri';
+    font-family:"";
 
-    margin: 0;
+    margin: 12;
     text-align: center;
-    background-color: turquoise;
+    background-color: rgb(148, 228, 220);
+  }
+
+  p {
+   background-color: rgb(234, 152, 52);
+   font-style:italic;
+   font-family:"monospace", Verdana, sans-serif;
+
+
   }
 
   table {
     border: 2em;
-    border: bisque;
+    border: rgb(87, 48, 215);
     align-self: center;
 
     text-align: center;
