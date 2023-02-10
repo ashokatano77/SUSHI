@@ -4,11 +4,12 @@ body {
 
     margin: 12;
     text-align: center;
-    background-color: rgb(148, 228, 220);
+    background-color: rgb(217, 195, 158);
   }
 
   p {
-   background-color: rgb(234, 152, 52);
+    color: rgb(92, 115, 104);
+   background-color: rgb(205, 171, 131);
    font-style:italic;
    font-family:"monospace", Verdana, sans-serif;
 
@@ -17,7 +18,7 @@ body {
 
   table {
     border: 2em;
-    border: rgb(87, 48, 215);
+    border: rgb(132, 89, 50);
     align-self: center;
 
     text-align: center;
