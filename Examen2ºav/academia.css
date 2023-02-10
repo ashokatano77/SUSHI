@@ -1,16 +1,16 @@
 
 body {
+  align-items: center;
     font-family:"";
-
     margin: 12;
     text-align: center;
     background-color: rgb(217, 195, 158);
   }
 
   p {
-    color: rgb(92, 115, 104);
+    
    background-color: rgb(205, 171, 131);
-   font-style:italic;
+   font-style:italic, rgb(92, 115, 104);
    font-family:"monospace", Verdana, sans-serif;
 
 
