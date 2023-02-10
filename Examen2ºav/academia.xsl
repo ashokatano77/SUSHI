@@ -9,8 +9,7 @@
 
         <body>
 
-            <h1><b>ACADEMIA</b></h1>
-            <br></br>
+            
             <table border="1" >
         
                 <tr  align="center">
