@@ -10,12 +10,17 @@ body {
   p {
     
    background-color: rgb(255, 255, 255);
-   font-family: monospace;
+   font-family:'Albori', sans-serif, sans-serif, monospace, light;
    margin: 0;
 
   }
   th {
     color: rgb(46, 170, 166);
+  }
+
+  td{
+    color: rgb(46, 170, 166);
+
   }
 
   table {
