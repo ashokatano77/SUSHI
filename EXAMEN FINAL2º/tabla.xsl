@@ -9,7 +9,7 @@
 
         <table border="1">
 
-            <font type="arial narrow">
+            
                 
         
                 <tr>
@@ -41,7 +41,7 @@
                     
                 </tr>
             </xsl:for-each>
-        </font>
+       
         </table>
     </body>
 </html>
