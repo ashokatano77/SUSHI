@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="tabla.xsl" type="text/xsl"?>
+<centro xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="tabla.xsd">
+
+    <area>
+        <servicio>FISIOTERAPIA</servicio>
+        <responsable>Chus, Marga y Silvia</responsable>
+        <plaza>RESRVA PREVIA</plaza>
+        <horario>L-V 9:00-13:00/15:00-19: 00 1h.</horario>
+    </area>
+
+    <area>
+        <servicio>PODOLOGÍA</servicio>
+        <responsable>Joana</responsable>
+        <plaza>RESRVA PREVIA</plaza>
+        <horario>L-V 9:00-13:00/15:00-19: 00 1h.</horario>
+    </area>
+
+    <area>
+        <servicio>PSICOLOGÍA</servicio>
+        <responsable>Aina</responsable>
+        <plaza>RESRVA PREVIA</plaza>
+        <horario>L-V 9:00-13:00/15:00-19: 00 1h.</horario>
+    </area>
+
+    <area>
+        <servicio>YOGA</servicio>
+        <responsable>Biel y Alex</responsable>
+        <plaza>20 PERSONAS</plaza>
+        <horario>L-X-V 11:00-12:30/17:00-18:30</horario>
+    </area>
+
+    <area>
+        <servicio>PILATES</servicio>
+        <responsable>Tolo</responsable>
+        <plaza>25 PEROSNAS</plaza>
+        <horario>M-J-V  10:00-11:30/16:00-17:30</horario>
+    </area>
+
+    <area>
+        <servicio>MEDITACIÓN GUIADA</servicio>
+        <responsable>Biel y Alex</responsable>
+        <plaza>10 PEROSNAS</plaza>
+        <horario>L-M-X-J-V 10:00-11:00/19:00-20:00</horario>
+    </area>
+
+</centro>

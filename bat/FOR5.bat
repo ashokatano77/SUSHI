@@ -1,0 +1,9 @@
+@echo off
+:bucle 
+for %%i IN (0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F) 
+DO
+COLOR %%i0
+goto bucle
+
+:: ESTO SE SUPONE QUE ES UN VIRUS QUE TE CAMBIA EL COLOR DE FORMA 
+:: REPETITIVA Y MOLESTA. SEGUN MIQUEL
