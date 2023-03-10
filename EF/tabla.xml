@@ -8,6 +8,7 @@
         <responsable>Chus, Marga y Silvia</responsable>
         <plaza>RESRVA PREVIA</plaza>
         <horario>L-V 9:00-13:00/15:00-19: 00 1h.</horario>
+        <precio>35€/h (bonos de 5 sesiones 160€ y de 10 sesiones 300€)</precio>
     </area>
 
     <area>
@@ -15,6 +16,7 @@
         <responsable>Joana</responsable>
         <plaza>RESRVA PREVIA</plaza>
         <horario>L-V 9:00-13:00/15:00-19: 00 1h.</horario>
+        <precio>25€/hora (bonos de 5 sesiones 100€ y de 10 sesiones 190€)</precio>
     </area>
 
     <area>
@@ -22,6 +24,7 @@
         <responsable>Aina</responsable>
         <plaza>RESRVA PREVIA</plaza>
         <horario>L-V 9:00-13:00/15:00-19: 00 1h.</horario>
+        <precio>50€/hora (bonos de 5 sesiones 220€ y de 10 sesiones 400€)</precio>
     </area>
 
     <area>
@@ -29,6 +32,7 @@
         <responsable>Biel y Alex</responsable>
         <plaza>20 PERSONAS</plaza>
         <horario>L-X-V 11:00-12:30/17:00-18:30</horario>
+        <precio>25€/mes</precio>
     </area>
 
     <area>
@@ -36,6 +40,7 @@
         <responsable>Tolo</responsable>
         <plaza>25 PEROSNAS</plaza>
         <horario>M-J-V  10:00-11:30/16:00-17:30</horario>
+        <precio>30€/mes</precio>
     </area>
 
     <area>
@@ -43,6 +48,8 @@
         <responsable>Biel y Alex</responsable>
         <plaza>10 PEROSNAS</plaza>
         <horario>L-M-X-J-V 10:00-11:00/19:00-20:00</horario>
+        <precio>35€/mes</precio>
     </area>
+   
 
 </centro>

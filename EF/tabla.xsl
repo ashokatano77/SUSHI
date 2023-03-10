@@ -17,7 +17,7 @@
                 
         
                 <tr>
-                    <td colspan="11">
+                    <td colspan="14">
                         <h3><b><center>CENTRO DE SALUD INTEGRAL</center></b></h3>
                     </td>
                     
@@ -28,6 +28,7 @@
                     <td colspan="2"><b>RESPONSABLE</b></td>
                     <td colspan="2"><b>PLAZA</b></td>
                     <td colspan="3"><b>HORARIO</b></td>
+                    <td colspan="3"><b>PRECIO</b></td>
                     
                 </tr>
         
@@ -41,6 +42,8 @@
                     <td colspan="2"><xsl:value-of select="plaza"/></td>
 
                     <td colspan="3"><xsl:value-of select="horario"/></td>
+
+                    <td colspan="3"><xsl:value-of select="precio"/></td>
 
                     
                 </tr>

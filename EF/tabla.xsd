@@ -17,6 +17,7 @@
                 <xs:element name="responsable" type="xs:string"/>
                 <xs:element name="plaza" type="xs:string"/>
                 <xs:element name="horario" type="xs:string"/>
+                <xs:element name="precio" type="xs:string"/>
                
 
 
