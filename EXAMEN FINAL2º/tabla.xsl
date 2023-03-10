@@ -18,7 +18,7 @@
         
                 <tr>
                     <td colspan="11">
-                        <b><center>CENTRO DE SALUD INTEGRAL</center></b>
+                        <h3><b><center>CENTRO DE SALUD INTEGRAL</center></b></h3>
                     </td>
                     
                 </tr>
