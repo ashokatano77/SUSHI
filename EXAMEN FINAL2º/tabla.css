@@ -2,11 +2,10 @@ body {
     
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
       margin: 0;
-      text-align: center;
       background-color: rgb(39, 141, 150);
     }
 
 table{
-       
+    align-self: center;
     text-align: center;
     }
