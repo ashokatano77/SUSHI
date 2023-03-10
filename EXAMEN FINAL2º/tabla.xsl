@@ -3,13 +3,14 @@
 <xsl:template match="/">
 <html>
     <head></head>
+    
     <body>
 
         
 
         <table border="1">
 
-            
+            <font type="arial narrow">
                 
         
                 <tr>
@@ -28,7 +29,7 @@
                 </tr>
         
 
-            <xsl:for-each select="area">
+            <xsl:for-each select="centro/area">
                 <tr>
                     <td colspan="4"><xsl:value-of select="servicio" /></td>
 
@@ -41,7 +42,7 @@
                     
                 </tr>
             </xsl:for-each>
-       
+        </font>
         </table>
     </body>
 </html>
