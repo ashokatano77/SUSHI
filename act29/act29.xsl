@@ -5,11 +5,11 @@ xmlns:dcterms="http://purl.org/dc/terms/"
 xmlns:atom="http://www.w3.org/2005/Atom" 
 xmlns:media="http://search.yahoo.com/mrss/">
 
-<xsl:template>
+<xsl:template match="/">
     
     <html>
         <head>
-            <link rel="stylesheet" href="act28.css"></link>
+            <link rel="stylesheet" href="act29.css"></link>
             <title>Periódico</title>
         
         </head>
