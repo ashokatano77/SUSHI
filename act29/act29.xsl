@@ -16,25 +16,26 @@ xmlns:media="http://search.yahoo.com/mrss/">
 
         <body>
 
-            <xsl:for-each select="rss/channel/item">
-             
-            
-            
-            <article>
-                <p><xsl:value-of select="title"/></p>
-                
-                
-                <xsl:for-each select="media:content">
+            <div1>
+                <h1><xsl:value-of select="rss/channel/title"/></h1>
+                <b><xsl:value-of select="rss/channel/description"/></b>
+              </div1>
 
-                <img src="{@url}" alt="{media:description}" style="max-height:300px; max-width:600px"></img>
 
-                </xsl:for-each>
-                
-                
-                <p><xsl:value-of select="pubDate"/></p>
-                <p><xsl:value-of select="description"/></p>
-                <a href="{link}">leer </a>
-            </article>
+              <xsl:for-each select="rss/channel/item">
+
+              <div2>
+                <main>
+                    <xsl:for-each select="rss/channel/item"/>
+                    <aticle>
+                        <p><xsl:value-of select="title"/></p>
+                        
+
+
+                    </aticle>
+
+                </main>
+            </div2>
 
 
             </xsl:for-each>
