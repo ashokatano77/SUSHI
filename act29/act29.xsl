@@ -30,7 +30,12 @@ xmlns:media="http://search.yahoo.com/mrss/">
                     <article>
 
                         <p><xsl:value-of select="title"/></p>
-                        <img src="{@url}" alt="{media:description}" style="max-height:300px; max-width:600px"></img>
+                        <xsl:for-each select="media:content">
+
+                <img src="{@url}" alt="{media:description}" style="max-height:300px; max-width:600px"></img>
+
+                </xsl:for-each>
+                        
                         <p><xsl:value-of select="description"/></p>
                         <a href="{link}">leer </a>
 
