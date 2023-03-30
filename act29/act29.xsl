@@ -10,50 +10,41 @@ xmlns:media="http://search.yahoo.com/mrss/">
     <html>
         <head>
             <link rel="stylesheet" href="act29.css"></link>
-            <title>Periódico</title>
+            <title>Diario de Mallorca cine </title>
         
         </head>
 
         <body>
 
-            <div1>
+            
                 <h1><xsl:value-of select="rss/channel/title"/></h1>
-                <b><xsl:value-of select="rss/channel/description"/></b>
-              </div1>
+                <!-- <b><h2><xsl:value-of select="rss/channel/description"/></h2></b>-->
+            
 
 
               <xsl:for-each select="rss/channel/item">
 
-              <div2>
+             
                 <main>
 
                 
-                    <xsl:for-each select="rss/channel/item"/>
+                    
                     <article>
 
-                        <p><xsl:for-each select="media:content"/></p>
+                        <p><b><xsl:value-of select="title"/></b></p>
 
-
-                        <p><h2><xsl:value-of select="title"/></h2></p>
-                        
-                        
-
-                <img src="{@url}" alt="{media:description}" style="max-height:300px; max-width:600px"></img>
-
-                
-            
-
-                <!--   <<p><xsl:value-of select="description"/></p>>-->
-                <!--   <<p><xsl:for-each select="media:content"></p>>-->
-                        
-                      
+                        <xsl:for-each select="media:content">
+                            <img src="{@url}" alt="{media:description}" style="max-height:100px; max-width:200px"></img>
+                        </xsl:for-each>
+                        <!--<p><xsl:value-of select="description"/></p> -->
+                        <br></br>
                         <a href="{link}">leer </a>
+                        <hr/>
 
                     </article>
                 </main>
 
-            </div2>
-
+            
 
             </xsl:for-each>
 
