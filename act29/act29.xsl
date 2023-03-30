@@ -31,14 +31,17 @@ xmlns:media="http://search.yahoo.com/mrss/">
                     <xsl:for-each select="rss/channel/item"/>
                     <article>
 
+                        <p><xsl:for-each select="media:content"/></p>
+
 
                         <p><h2><xsl:value-of select="title"/></h2></p>
-                        <p><xsl:for-each select="media:content"></p>
+                        
                         
 
                 <img src="{@url}" alt="{media:description}" style="max-height:300px; max-width:600px"></img>
 
-                </xsl:for-each>
+                
+            
 
                 <!--   <<p><xsl:value-of select="description"/></p>>-->
                 <!--   <<p><xsl:for-each select="media:content"></p>>-->
