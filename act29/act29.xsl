@@ -26,6 +26,8 @@ xmlns:media="http://search.yahoo.com/mrss/">
 
               <div2>
                 <main>
+
+                <title><h3>Película<h3></title>
                     <xsl:for-each select="rss/channel/item"/>
                     <article>
 
