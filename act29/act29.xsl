@@ -27,11 +27,12 @@ xmlns:media="http://search.yahoo.com/mrss/">
               <div2>
                 <main>
 
-                <title><h3>Película<h3></title>
+                
                     <xsl:for-each select="rss/channel/item"/>
                     <article>
 
-                        <p><xsl:value-of select="title"/></p>
+
+                        <p><h2><xsl:value-of select="title"/></h2></p>
                         <xsl:for-each select="media:content">
 
                 <img src="{@url}" alt="{media:description}" style="max-height:300px; max-width:600px"></img>
