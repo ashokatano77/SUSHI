@@ -33,6 +33,7 @@ xmlns:media="http://search.yahoo.com/mrss/">
 
 
                         <p><h2><xsl:value-of select="title"/></h2></p>
+                        <p><xsl:for-each select="media:content"></p>
                         
 
                 <img src="{@url}" alt="{media:description}" style="max-height:300px; max-width:600px"></img>
