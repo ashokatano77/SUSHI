@@ -3,7 +3,7 @@
 <xsl:output method="text" indent="yes"/>
 <xsl:template match="/">
 {
-            "cdsoferta": {
+            "OFERTA": {
                 "cd": [
                     <xsl:for-each select="OFERTA/CD">
                     
