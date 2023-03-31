@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="index.xsl" type="text/xsl"?>
-<breakfast_menu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="script.xsd" >
+<?xml-model href="script.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<?xml-stylesheet href="script.xsl" type="text/xsl"?>
+<breakfast_menu  >
 
     <food>
         <name>Belgian Waffles</name>
