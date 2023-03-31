@@ -4,17 +4,17 @@
 <xsl:template match="/">
 {
             "OFERTA": {
-                "cd": [
+                "CD": [
                     <xsl:for-each select="OFERTA/CD">
                     
                     {
                     
-                    "titulo": " <xsl:value-of select="titulo"/> ",
-                    "artista": "  <xsl:value-of select="Artista"/>  ",
-                    "pais": " <xsl:value-of select="Pais"/> ",
-                    "compañia": "<xsl:value-of select="Compania"/> ",
-                    "precio": <xsl:value-of select="Precio"/>,
-                    "publicacion": <xsl:value-of select="anio"/>
+                    "TITULO": " <xsl:value-of select="titulo"/> ",
+                    "ARTISTA": "  <xsl:value-of select="Artista"/>  ",
+                    "PAIS": " <xsl:value-of select="Pais"/> ",
+                    "COMPAÑIA": "<xsl:value-of select="Compania"/> ",
+                    "PRECIO": <xsl:value-of select="Precio"/>,
+                    "PUBLICACION": <xsl:value-of select="anio"/>
                 }<xsl:if test="position () != last()"><xsl:text>,</xsl:text></xsl:if>
             </xsl:for-each>
             ]
