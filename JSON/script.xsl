@@ -8,7 +8,7 @@
                 <xsl:for-each select="breakfast_menu/food">
                     {
                         "nombre": "<xsl:value-of select="name"/>"
-                    }
+                    },
                 </xsl:for-each>
                 ]
             }
