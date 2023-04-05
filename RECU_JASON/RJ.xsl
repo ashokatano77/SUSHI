@@ -6,7 +6,7 @@
             "OFERTA": {
                 "CD": [
                     <xsl:for-each select="OFERTA/CD">
-                    
+
                     {
                     
                     "TITULO": " <xsl:value-of select="titulo"/> ",
@@ -15,7 +15,9 @@
                     "COMPAÑIA": "<xsl:value-of select="Compania"/> ",
                     "PRECIO": <xsl:value-of select="Precio"/>,
                     "PUBLICACION": <xsl:value-of select="anio"/>
-                }<xsl:if test="position () != last()"><xsl:text>,</xsl:text></xsl:if>
+                }<xsl:if test="not(position() = last())">
+                    <xsl:text>,</xsl:text>
+                  </xsl:if>
             </xsl:for-each>
             ]
             

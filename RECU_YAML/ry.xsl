@@ -34,7 +34,7 @@ facturas:
               importe: <xsl:value-of select="importe"></xsl:value-of></xsl:for-each>
             
               
-    precios: <xsl:for-each select="facturas/factura/datos/precios">
+    precios: <xsl:for-each select="facturas/facturas/factura/datos/precios">
       base: <xsl:value-of select="base"></xsl:value-of>
       iva: <xsl:value-of select="iva"></xsl:value-of>
       cuotaiva: <xsl:value-of select="cuotaiva"></xsl:value-of>
