@@ -28,11 +28,11 @@ FACTURA: <xsl:for-each select="FACTURA">
   datosfactura:
     dato: <xsl:for-each select="FACTURA/datosfactura/dato">
        - ref: <xsl:value-of select="ref"></xsl:value-of>
-       - descripcion: <xsl:value-of select="descripcion"></xsl:value-of>
-       - cantidad: <xsl:value-of select="cantidad"></xsl:value-of>
-       - precio: <xsl:value-of select="precio"></xsl:value-of>
-       - iva: <xsl:value-of select="iva"></xsl:value-of>
-       - importe: <xsl:value-of select="importe"></xsl:value-of> </xsl:for-each>
+         descripcion: <xsl:value-of select="descripcion"></xsl:value-of>
+         cantidad: <xsl:value-of select="cantidad"></xsl:value-of>
+         precio: <xsl:value-of select="precio"></xsl:value-of>
+         iva: <xsl:value-of select="iva"></xsl:value-of>
+         importe: <xsl:value-of select="importe"></xsl:value-of> </xsl:for-each>
 
     totaladatos:<xsl:for-each select="FACTURA/datosfactura/totaldatos">
        baseimponible: <xsl:value-of select="baseimponible"></xsl:value-of>
