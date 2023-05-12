@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Producto - Tienda en línea</title>
+	<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+	<header>
+		<!-- cabecera común de la página web -->
+		<nav>
+			<ul>
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="productos.html">Productos</a></li>
+				<li><a href="login.html">Iniciar sesión</a></li>
+				<li><a href="carrito.html">Carrito</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<h1>Nombre del producto</h1>
+		<img src="imagen-del-producto.jpg" alt="Producto">
+		<p>Descripción del producto...</p>
+		<p>Precio: $50.00</p>
+		<form action="agregar-al-carrito.php" method="post">
+			<label for="cantidad">Cantidad:</label>
+			<input type="number" name="cantidad" id="cantidad" value="1" min="1">
+			<input type="submit" value="Agregar al carrito">
+		</form>
+	</main>
+	<footer>
+		<!-- pie de página común de la página web -->
+		<p>Tienda en línea - Todos los derechos reservados</p>
+	</footer>
+</body>
+</html>
